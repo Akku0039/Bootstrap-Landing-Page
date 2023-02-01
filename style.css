@@ -1,0 +1,108 @@
+.container{
+    position: absolute;
+    width: 1728px;
+    height: 2885px;
+   
+    background: #FFFFFF;
+    align-items: center;
+}
+.Slides{
+    position: absolute;
+    width: 1650px;
+    height: 874px;
+    left: 39px;
+    top: 87px;
+
+}
+.cards-wrapper{
+    position: absolute;
+    display: flex;
+    gap: 20px;
+height: 775px;
+left: 39px;
+top: 1001px;
+justify-content:space-evenly;
+}
+.cards{
+    
+    margin: 1em;
+    width: calc(100%/3);
+     
+    
+}
+.f{
+    top: 2518px;
+    align-content: center;
+    left: 39px;
+}
+.navbar a{
+    color: blue;
+}
+.A{
+    position: absolute;
+    height: 171px;
+    width: 1650px;
+    left: 39px;
+    top: 1816px;
+    padding: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+
+  
+  
+}
+
+.f h2{
+    position: absolute;
+height: 24px;
+left: 41px;
+top: 2600px;
+}
+.ff{
+    position: absolute;
+    top: 2670px;
+    align-items: center;width: 1644px;
+}
+nav{
+   
+ position: fixed;
+width: 1666px;
+height: 40px;
+left: 31px;
+top: 19px;
+}
+img{
+    width: 1650px;
+    height: 874px;
+    
+    background: #777777; 
+}
+.card img{
+    height: 352px;
+    width: 528px;
+}
+.tb{
+position: absolute;
+width: 1650px;
+left: 39px;
+top: 2090px;
+}
+
+    @media only screen and  (min-width:200px) and (max-width:576px){
+        .ff{
+            width: 100%;
+        }
+        nav{
+            width: 100%;
+        }
+        .Slides{
+            width: 100%;
+        }
+        .cards{
+            width: 100%;
+            
+        }
+        .h2{
+            width: 100%;
+        }
+    }
